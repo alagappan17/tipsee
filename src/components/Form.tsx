@@ -31,7 +31,7 @@ const Form = () => {
       <div>
         <span className="label-input">Bill</span>
         <div className="left-inner-icon">
-          <img className="icon" src="./src/images/icon-dollar.svg" />
+          <img className="icon" src="./images/icon-dollar.svg" />
           <input
             type="number"
             id="bill-amount"
@@ -126,7 +126,7 @@ const Form = () => {
       <div>
         <span className="label-input">Number of People</span>
         <div className="left-inner-icon">
-          <img className="icon" src="./src/images/icon-person.svg" />
+          <img className="icon" src="./images/icon-person.svg" />
           <input
             type="number"
             id="people-count"
