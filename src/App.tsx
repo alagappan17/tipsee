@@ -1,11 +1,17 @@
-import './App.css'
+import { ContextProvider } from "./TipseeContext";
+import Header from "./components/Header";
+import Calculator from "./components/Calculator";
+import "./App.css";
 
 function App() {
   return (
-    <>
-      Tipsee
-    </>
-  )
+    <div className="main">
+      <ContextProvider>
+        <Header />
+        <Calculator />
+      </ContextProvider>
+    </div>
+  );
 }
 
-export default App
+export default App;
