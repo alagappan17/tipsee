@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div>
-      <img src="./images/tipsee-black-logo.png" className="app-logo" />
+      <img src="./src/assets/tipsee-black-logo.png" className="app-logo" />
     </div>
   );
 };
